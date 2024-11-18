@@ -7,4 +7,6 @@ import ma.imadsprojects.bankaccountservice.enums.AccountType;
 
 public interface BankAccountService {
     public BankAccountResponseDTO addAccount(BankAccountRequestDTO bankAccountdto);
+
+    BankAccountResponseDTO updateAccount(String id, BankAccountRequestDTO bankAccountdto);
 }
